@@ -54,6 +54,9 @@ public class RNInstalledAppCheckerModule extends ReactContextBaseJavaModule {
                 appInfo.putString("appName", packageInfo.applicationInfo.loadLabel(packageManager).toString());
                 appInfo.putString("versionName", packageInfo.versionName != null ? packageInfo.versionName : "Unknown");
                 appInfo.putInt("versionCode", packageInfo.versionCode);
+                appInfo.putDouble("firstInstallTime", packageInfo.firstInstallTime); // 毫秒
+                appInfo.putDouble("lastUpdateTime", packageInfo.lastUpdateTime);     // 毫秒
+
                 installedApps.pushMap(appInfo);
             }
         }
