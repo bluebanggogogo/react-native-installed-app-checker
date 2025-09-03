@@ -1,5 +1,5 @@
 {
-  "name": "react-native-installed-app-checker-go",
+  "name": "react-native-installed-app-checker",
   "version": "1.0.0",
   "main": "InstalledAppChecker/index.js",
   "react-native": {
