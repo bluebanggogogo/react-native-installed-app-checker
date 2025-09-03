@@ -1,17 +1,29 @@
 {
   "name": "react-native-installed-app-checker",
-  "version": "1.0.7",
-  "description": "A React Native module to check if an app is installed",
+  "version": "1.1.1",
+  "description": "A React Native module to check if an app is installed and get list of installed apps",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "installed-apps",
+    "app-checker",
+    "ios",
+    "android"
   ],
   "author": "Harun Selçuk Çetin",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.60.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selcukctn/react-native-installed-app-checker.git"
+  },
+  "homepage": "https://github.com/selcukctn/react-native-installed-app-checker#readme",
+  "bugs": {
+    "url": "https://github.com/selcukctn/react-native-installed-app-checker/issues"
   }
 }
